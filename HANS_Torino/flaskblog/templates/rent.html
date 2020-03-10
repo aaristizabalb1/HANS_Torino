@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1 class="navbar-dark" >Rent an Apartment</h1>
+            <article class="media content-section">
+              <img class="rent-img" src="{{ url_for('static', filename='rent_pics/apart1.jpg') }}" alt="Chania">
+              <div class="media-body">
+                <div class="article-metadata">
+                  <h2> Apartment 1</h2>
+                    <small class="text-muted">info: 3292732782</small>
+                </div>
+                  <p class="article-content"> here is the description of the apartment, we can make it as long as we want. In palazzo di recentissima costruzione con portineria e ascensori, appartamento al secondo piano composto da ingresso su soggiorno, cucinino non abitabile, due camere, bagno e cantina. Un terrazzo verso il corso, di 7 x 2 metri, permette di mangiare fuori d'estate. Inoltre vi è un secondo balcone verso il cortile. </p>
+              </div>
+            </article>
+            <article class="media content-section">
+              <img class="rent-img" src="{{ url_for('static', filename='rent_pics/apart1.jpg') }}" alt="Chania">
+              <div class="media-body">
+                <div class="article-metadata">
+                  <h2> Apartment 1</h2>
+                </div>
+                  <p class="article-content"> here is the description of the apartment</p>
+              </div>
+            </article>
+                <article class="media content-section">
+              <img class="rent-img" src="{{ url_for('static', filename='rent_pics/apart1.jpg') }}" alt="Chania">
+              <div class="media-body">
+                <div class="article-metadata">
+                  <h2> Apartment 1</h2>
+                </div>
+                  <p class="article-content"> here is the description of the apartment</p>
+              </div>
+            </article>
+            <article class="media content-section">
+              <img class="rent-img" src="{{ url_for('static', filename='rent_pics/apart1.jpg') }}" alt="Chania">
+              <div class="media-body">
+                <div class="article-metadata">
+                  <h2> Apartment 1</h2>
+                </div>
+                  <p class="article-content"> here is the description of the apartment</p>
+              </div>
+            </article>
+{% endblock content %}
